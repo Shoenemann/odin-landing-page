@@ -20,3 +20,23 @@ div {
 .header .right-links {
     gap: 8px;
 }
+.subheader {
+
+}
+.subheader .left {
+    flex: 1;
+    flex-direction: column;
+}
+.subheader .left .h1 {
+
+}
+.subheader .left .p {
+
+}
+.subheader .button {
+    
+}
+.subheader .right {
+    flex: 1;
+    background-color: #ddd;
+}
