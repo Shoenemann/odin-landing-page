@@ -76,3 +76,8 @@ p.author {
     background-color: blue;
     padding: 20px;
 }
+.footer {
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+}
