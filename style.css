@@ -99,12 +99,13 @@ p.author {
     align-self: flex-end;
 }
 .section.bottom {
-    padding: 40px;
-    justify-content: space-evenly;
+    padding: 80px 160px;
+    flex-direction: column;
     background-color: white;
 }
 .section.bottom .call {
-    padding: 20px;
+    padding: 40px;
+    justify-content: space-evenly;
 }
 .footer {
     align-items: center;
@@ -120,4 +121,7 @@ p.author {
 }
 button,.call {
     background-color: #3882f6;
+}
+.section.bottom {
+    padding: 
 }
