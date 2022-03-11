@@ -59,3 +59,11 @@ div {
 .cardtext {
     flex-wrap: wrap;
 }
+.quote {
+    background-color: grey;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+p.author {
+    justify-self: end;
+}
