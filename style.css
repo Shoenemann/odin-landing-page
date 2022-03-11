@@ -67,3 +67,12 @@ div {
 p.author {
     justify-self: end;
 }
+.section.bottom {
+    padding: 40px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.section.bottom .call {
+    background-color: blue;
+    padding: 20px;
+}
