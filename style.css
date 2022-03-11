@@ -48,7 +48,21 @@ div {
     font-weight: 200;
 }
 
-
+.call-text {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+}
+.call .main {
+    margin:0;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.call .call-text {
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
 
 .subheader {
     padding: 16px 160px;
@@ -60,8 +74,11 @@ div {
     align-items: flex-start;
 }
 button {
-    padding: 8px;
+    padding: 10px 24px;
 }
+.call button {
+    align-self: center;
+} 
 .subheader .right {
     flex: 1;
     background-color: #ddd;
