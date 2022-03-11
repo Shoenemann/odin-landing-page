@@ -33,7 +33,7 @@ div {
     margin: 0;
 }
 .header .right-links {
-    gap: 8px;
+    gap: 24px;
 }
 .info-text {
     font-size: 36px;
@@ -46,6 +46,10 @@ div {
     font-size: 36px;
     font-style: italic;
     font-weight: 200;
+}
+
+.quote p {
+    margin: 0;
 }
 
 .call-text {
@@ -110,16 +114,15 @@ button {
 }
 .quote {
     background-color: grey;
-    padding: 50px 160px;
+    padding: 120px 160px;
     flex-direction: column;
     justify-content: center;
-    gap: -40px;
 }
 p.author {
     align-self: flex-end;
 }
 .section.bottom {
-    padding: 80px 160px;
+    padding: 120px 160px;
     flex-direction: column;
     background-color: white;
 }
