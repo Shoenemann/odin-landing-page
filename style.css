@@ -17,4 +17,6 @@ div {
     justify-content: center;
     padding: 12px;
 }
-
+.header .right-links {
+    gap: 8px;
+}
