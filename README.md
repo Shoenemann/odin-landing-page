@@ -1,2 +1,2 @@
 # odin-landing-page
-The Odin Project - CSS project in Foundations Course
+The Odin Project - CSS and Flexbox project in Foundations Course
