@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+div {
+    display:flex;
+}
+.header {
+    padding: 8px 80px;
+    justify-content: space-between;
+}
+.content {
+    flex: auto;
+    flex-direction: column;
+}
+.footer {
+    justify-content: center;
+    padding: 12px;
+}
+
