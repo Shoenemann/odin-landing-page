@@ -79,6 +79,8 @@ button {
 .card {
     width: 150px;
     flex-direction: column;
+    gap: 20px;
+    color: #1f2937;
 }
 .cardimg {
     width: 150px;
