@@ -17,9 +17,38 @@ div {
     justify-content: center;
     padding: 12px;
 }
+.header .right-links, 
+.subheader .secondary, .footer {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.subheader .main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
 .header .right-links {
     gap: 8px;
 }
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+
+
 .subheader {
 
 }
@@ -27,10 +56,10 @@ div {
     flex: 1;
     flex-direction: column;
 }
-.subheader .left .h1 {
+.subheader .left .main {
 
 }
-.subheader .left .p {
+.subheader .left .secondary {
 
 }
 .subheader .button {
@@ -73,11 +102,16 @@ p.author {
     background-color: white;
 }
 .section.bottom .call {
-    background-color: blue;
     padding: 20px;
 }
 .footer {
     align-items: center;
     justify-content: center;
-    background-color: blueviolet;
+}
+
+.footer, .header, .subheader {
+    background-color: #1f2937;
+}
+button,.call {
+    background-color: #3882f6;
 }
